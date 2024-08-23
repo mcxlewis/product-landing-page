@@ -2,13 +2,11 @@
     font-family: 'Bitter', serif;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-
 }
 
 .nav-bar {
@@ -34,4 +32,10 @@ header {
 #commission {
     width: 300px;
     height: 100px;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
