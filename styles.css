@@ -13,4 +13,19 @@ header {
 
 .nav-bar {
     position: fixed;
+    top: 0;
+}
+
+#footer, header {
+    background-color: #fff9ee;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #625a4b;
+    font-weight: bold;
 }
