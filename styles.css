@@ -15,6 +15,12 @@ header {
     left: 0;
     right: 0;
     bottom: auto;
+    padding: 5px;
+}
+
+.header-text {
+    font-size: 22px;
+    font-weight: 550;
 }
 
 .nav-bar {
@@ -23,8 +29,11 @@ header {
 }
 
 #footer, header {
-    background-color: #fff9ee;
-    text-align: center;
+    background: linear-gradient(
+        #fff,    
+        #fff9ee,
+        #fff 
+    );    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -52,10 +61,19 @@ textarea {
     justify-content: space-between;
 }
 
-.quote-1, .hero {
+.quote-1 {
     font-style: italic;
     font-weight: 300;
     margin: 15px 0 0 30px;
+    background: linear-gradient(
+        #fff,    
+        #fff9ee,
+        #fff 
+    );
+}
+
+.about-1, .about-2 {
+    text-align: center;
 }
 
 #footer {
@@ -66,4 +84,10 @@ textarea {
     right: 0;
     bottom: 0;
     position: absolute;
+    font-size: 14px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
 }
