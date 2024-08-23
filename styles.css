@@ -1,0 +1,16 @@
+* {
+    font-family: 'Bitter', serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    position: fixed;
+}
