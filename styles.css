@@ -6,6 +6,13 @@
 }
 * {
     font-family: 'Bitter', serif;
+    background: #000;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .about, .commission-container {
@@ -27,6 +34,8 @@ header {
     right: 0;
     bottom: auto;
     padding: 5px;
+    position: fixed;
+    margin-bottom: 20px;
 }
 
 .header-text {
@@ -41,9 +50,9 @@ header {
 
 #footer, header {
     background: linear-gradient(
-        #fff,    
+        transparent,    
         #fff9ee,
-        #fff 
+        transparent 
     );    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
@@ -51,7 +60,7 @@ header {
 
 .nav-link {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 textarea {
@@ -76,11 +85,6 @@ textarea::placeholder {
     font-style: italic;
     font-weight: 300;
     margin: 15px 0 0 30px;
-    background: linear-gradient(
-        #fff,    
-        #fff9ee,
-        #fff 
-    );
 }
 
 .about-1, .about-2 {

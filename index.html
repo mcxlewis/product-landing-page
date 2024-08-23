@@ -14,31 +14,25 @@
         <p class="header-text">skull & cross stitch</p>
         <img id="header-img" src="https://i.postimg.cc/fbZvSJZf/IMG-1965.png">
         <nav id="nav-bar">
-            <a class="nav-link" href="#header" target="_blank">link 1</a> <!--another element id-->
-            <a class="nav-link" href="#footer" target="_blank">link 2</a> <!--another element id-->
-            <a class="nav-link" href="#video" target="_blank">videos</a> <!--another element id-->
-            <a class="nav-link" href="#about" target="_blank">about us</a>
+            <a class="nav-link" name="video" href="#video">videos</a> <!--another element id-->
+            <a class="nav-link" name="about" href="#about">about us</a>
+            <a class="nav-link" name="form" href="#form">commissions</a>
         </nav>
     </header>
-    <div class="hero" id="hero">
-        <p class="hero"></p>
-    </div>
     <div class="about" id="about">
         <p class="about-1">thoughtfully made, handcrafted fiber arts from richmond, virginia.</p>
             <div class="about-2"><a>crochet, knit, and embroidered crafts from our hands to yours.</a></div>
-            <div class="about-3"><a>Established in Richmond, Virginia in 2019, Skull & Cross Stitch is an independently LGBTQ owned company, creating custom & commission based items as well as creating unique items for sale. Maddox Lewis, creator and founder, finds joy and comfort in creativity. They say,</a></div>
-            <div class="quote-1"><a>"When my mind gets busy, my hands need to be busy as well. It only makes sense for something productive to come out of that. If I can create something from that compulsion, especially something that might have a function, isn't that great?"</a></div>
+            <div class="about-3"><a>established in richmond, virginia in 2019, <span class="skull">skull & cross stitch</span> is an independently lgbtq-owned company, creating custom & commission based items as well as creating unique items for sale. m. lewis, creator and founder, finds joy and comfort in creativity. they say,</a></div>
+            <div class="quote-1"><a>"when my mind gets busy, my hands need to be busy as well. it only makes sense for something productive to come out of that. if I can create something from that compulsion, especially something that might have a function, isn't that great?"</a></div>
     </div>
-    <div class="commission-container">
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <p class="commission-text">Are you interested in a commission? Provide your email with a quick description of what you're looking for, and we'll see if we can make it happen. 
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p class="commission-text">are you interested in a commission? please provide a quick description of what you're looking for, as well as your email, and we'll see if we can make it happen. 
             <div class="inputs">
                 <textarea maxlength="250" rows="6" cols="35" placeholder=" (max. 250 characters) " id="commission" class="commission"required></textarea>
-                <input id="email" name="email" placeholder="youremail@here.com" required type="email"></input>
-                <input type="submit" id="submit"></input></p>
+                <input id="email" name="email" placeholder="  your-email@here.com" required type="email"></input>
+                <input type="submit" id="submit" value="submit"></input></p>
             </div>
         </form>
-    </div>
     <video id="video" src=""></video>
     <footer id="footer">created by m. lewis for the fCC Responsive Web Development Curriculum - 2024</footer>
 </body>
