@@ -2,13 +2,13 @@
     font-family: 'Bitter', serif;
 }
 
-body {
-    width: 100%;
-}
 
 header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
 }
 
 .nav-bar {
@@ -18,6 +18,7 @@ header {
 
 #footer, header {
     background-color: #fff9ee;
+    text-align: center;
 }
 
 .nav-link {
@@ -28,4 +29,9 @@ header {
 .nav-link:hover {
     color: #625a4b;
     font-weight: bold;
+}
+
+#commission {
+    width: 300px;
+    height: 100px;
 }

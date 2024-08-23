@@ -15,14 +15,27 @@
         <nav id="nav-bar">
             <a class="nav-link" href="#header" target="_blank">link 1</a> <!--another element id-->
             <a class="nav-link" href="#footer" target="_blank">link 2</a> <!--another element id-->
-            <a class="nav-link" href="#video" target="_blank">link 3</a> <!--another element id-->
+            <a class="nav-link" href="#video" target="_blank">videos</a> <!--another element id-->
+            <a class="nav-link" href="#about" target="_blank">about us</a>
         </nav>
     </header>
+    <div class="hero" id="hero">
+        <p class="hero">Handcrafted fiber arts from Upstate New York and Richmond, Virginia.</p>
+    </div>
+    <div class="about" id="about">
+        <p class="about">Thoughtfully made, stitch by stitch. </p>
+            <span><a>Crochet, knit, and embroidered crafts from our hands to yours.</a></span>
+            <a>Since 2019, Skull & Cross Stitch has been an independently LGBTQ owned company, creating custom & commission based items as well as creating unique items for sale. Maddox Lewis, creator and founder, finds joy and comfort in creativity. They say, 
+                <span class="quote-1">When my mind gets busy, my hands need to be busy as well. It only makes sense for something productive to come out of that. If I can create something from that compulsion, especially something that might have a function, isn't that great?</span>
+            </a>
+    </div>
     <div class="container"></div>
     <video id="video" src=""></video>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input id="email" name="email" placeholder="youremail@here.com" type="email"></input>
-        <input type="submit" id="submit" ></input>
+        <p class="commission">Are you interested in a commission? Provide your email with a quick description of what you're looking for, and we'll see if we can make it happen. (max. 250 characters).
+        <input type="textarea" id="commission" class="commission" maxlength="250" required></input>
+        <input id="email" name="email" placeholder="youremail@here.com" required type="email"></input>
+        <input type="submit" id="submit"></input></p>
     </form>
     <footer id="footer">created by m. lewis for the fCC Responsive Web Development Curriculum - 2024</footer>
 </body>
