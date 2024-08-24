@@ -25,8 +25,8 @@ body {
 
 .wrapper {
     display: grid;
-    /* width: 50%;
-    margin: 0 auto; */
+    width: 50%;
+    margin: 0 auto;
 }
 
 
@@ -93,9 +93,7 @@ textarea::placeholder {
 #form {
     display: flex;
     align-items: center;
-    border: 1px solid #625a4b;
     padding: 0 30px 0 30px;
-    width: 50%;
     margin: 0 auto;
     align-content: center;
     grid-row: 5;
@@ -104,7 +102,6 @@ textarea::placeholder {
         var(--tan) 50%,
         transparent 98%
     );
-    
 }
 
 .skull {
