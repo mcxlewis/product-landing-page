@@ -18,6 +18,10 @@ body {
     flex-direction: column;
     margin-top: 50px;
 }
+.wrapper {
+    display: grid;
+}
+
 
 .about, .commission-container {
     margin: 20px;
@@ -57,7 +61,8 @@ header {
         transparent,    
         #fff3de,
         transparent 
-    );    text-align: center;
+    );   
+    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
     width: 100%;
