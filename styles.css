@@ -9,6 +9,10 @@
     color: #000;
 }
 
+:root {
+    --tan: #fff3de;
+}
+
 body, html, *, header {
     box-sizing: border-box;
 }
@@ -18,8 +22,11 @@ body {
     flex-direction: column;
     margin-top: 50px;
 }
+
 .wrapper {
     display: grid;
+    /* width: 50%;
+    margin: 0 auto; */
 }
 
 
@@ -58,15 +65,14 @@ header {
 
 #footer, header {
     background: linear-gradient(
-        transparent,    
-        #fff3de,
-        transparent 
+        transparent,
+        var(--tan),    
+        transparent
     );   
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
     width: 100%;
-
 }
 
 .nav-link {
@@ -93,6 +99,12 @@ textarea::placeholder {
     margin: 0 auto;
     align-content: center;
     grid-row: 5;
+    background-image: repeating-radial-gradient(
+        transparent,
+        var(--tan) 50%,
+        transparent 98%
+    );
+    
 }
 
 .skull {
@@ -131,9 +143,15 @@ textarea::placeholder {
     right: 0;
     bottom: 0;
     font-size: 14px;
+    position: absolute;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
+}
+
+.commission-text {
+    text-wrap: wrap;
 }
