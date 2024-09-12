@@ -26,12 +26,12 @@ body {
 .wrapper {
     display: grid;
     width: 50%;
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
 }
 
-
-.about, .commission-container {
+.commission-container {
     margin: 20px;
+    text-wrap: wrap;
 }
 
 .nav-link:hover {
@@ -44,8 +44,6 @@ header {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    left: 0;
-    right: 0;
     bottom: auto;
     padding: 0;
     margin: 0;
@@ -62,21 +60,23 @@ header {
     top: 0;
 }
 
-#footer, header {
+footer, header {
     background: linear-gradient(
         transparent,
         var(--tan),    
         transparent
     );   
-    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
     width: 100%;
+    left: 0;
+    right: 0;
 }
 
 .nav-link {
     text-decoration: none;
     color: #000;
+    padding-left: 10px; 
 }
 
 textarea {
@@ -115,7 +115,6 @@ textarea::placeholder {
 }
 
 .about-1, .about-2, .about-3 {
-    text-align: center;
     grid-column: 1;
 }
 
@@ -135,12 +134,10 @@ textarea::placeholder {
     padding-top: 10px;
     padding-bottom: 10px;
     top: auto;
-    left: 0;
-    right: 0;
     bottom: 0;
     font-size: 14px;
     position: fixed;
-    margin: auto; 
+    margin: 0; 
 }
 
 .inputs {
@@ -149,11 +146,26 @@ textarea::placeholder {
     margin-left: 30px;
 }
 
-.commission-text {
-    text-wrap: wrap;
-}
-
 .octopus, .blanket, .scrunchie {
     height: 200px;
     width: 160px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.projects, #form {
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.projects, .about-1, .about-2, .about-3, footer, header {
+    text-align: center;
 }
