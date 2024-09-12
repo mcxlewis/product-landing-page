@@ -50,7 +50,6 @@ header {
     padding: 0;
     margin: 0;
     position: absolute;
-    width: 100vw;
 }
 
 .header-text {
@@ -132,7 +131,7 @@ textarea::placeholder {
     grid-row: 3;
 }
 
-#footer {
+ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     top: auto;
@@ -140,7 +139,8 @@ textarea::placeholder {
     right: 0;
     bottom: 0;
     font-size: 14px;
-    position: absolute;
+    position: fixed;
+    margin: auto; 
 }
 
 .inputs {
@@ -151,4 +151,9 @@ textarea::placeholder {
 
 .commission-text {
     text-wrap: wrap;
+}
+
+.octopus, .blanket, .scrunchie {
+    height: 200px;
+    width: 160px;
 }
